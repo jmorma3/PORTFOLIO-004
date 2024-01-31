@@ -1,0 +1,100 @@
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+.weak {
+    color: red;
+}
+
+.medium {
+    color: orange;
+}
+
+.hard {
+    color: green;
+}
+
+.hide {
+    display: none;
+}
+
+main {
+    border: 1px solid black;
+    display: grid;
+    height: 100vh;
+    background-image: url("./images/cool-background.png");
+    background-size: cover;
+    grid-template-areas:
+        ". . . . . ."
+        ". . . f . ."
+        ". . . . . .";
+}
+
+form {
+    border: 1px solid rgba(0, 0, 0, 0.429);
+    background-color: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.461);
+    border-radius: 25px;
+    display: grid;
+    grid-area: f;
+    width: 350px;
+    justify-content:space-evenly;
+}
+
+
+
+form>* {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.signup-form {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.signup-form>* {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+#gender-radios-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: x-large;
+    text-align: center;
+}
+
+button {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: small;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.461);
+    background-color: #3b6aebd5;
+    color: white;
+    border: 1px solid #3b6aebd5;
+}
+
+.button-div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    height: max-content;
+}
